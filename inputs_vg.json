@@ -1,0 +1,24 @@
+{
+"GiraffeDeepVariant.INPUT_READ_FILE_1":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/exomes/vg.read1.fq.gz",
+"GiraffeDeepVariant.INPUT_READ_FILE_2":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/exomes/vg.read2.fq.gz",
+"GiraffeDeepVariant.DV_MODEL_DATA":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/exomes/model.ckpt-29300.data-00000-of-00001",
+"GiraffeDeepVariant.DV_MODEL_INDEX":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/exomes/model.ckpt-29300.index",
+"GiraffeDeepVariant.DV_MODEL_META":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/exomes/model.ckpt-29300.meta",
+"GiraffeDeepVariant.DIST_FILE":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/hprc-f1-D10M-clipped-indexes/GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.dist",
+"GiraffeDeepVariant.MIN_FILE":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/hprc-f1-D10M-clipped-indexes/GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.min",
+"GiraffeDeepVariant.GBWT_FILE":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/hprc-f1-D10M-clipped-indexes/GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.gbwt",
+"GiraffeDeepVariant.GGBWT_FILE":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/hprc-f1-D10M-clipped-indexes/GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.gg",
+"GiraffeDeepVariant.XG_FILE":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/hprc-f1-D10M-clipped-indexes/GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.xg",
+"GiraffeDeepVariant.OUTPUT_GAF":"${true}",
+"GiraffeDeepVariant.OUTPUT_GAM":"${true}",
+"GiraffeDeepVariant.PATH_LIST_FILE":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/hprc-f1-D10M-clipped-indexes/giraffedv-paths-list.txt",
+"GiraffeDeepVariant.REFERENCE_FILE":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/hprc-f1-D10M-clipped-indexes/giraffedv-ref.fa",
+"GiraffeDeepVariant.REFERENCE_INDEX_FILE":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/hprc-f1-D10M-clipped-indexes/giraffedv-ref.fa.fai",
+"GiraffeDeepVariant.REFERENCE_DICT_FILE":"gs://fc-0e9b62da-2dd8-42e5-bb50-8d08e7cdebc3/hprc-f1-D10M-clipped-indexes/giraffedv-ref.dict",
+"GiraffeDeepVariant.OTHER_MAKEEXAMPLES_ARG":"--channels insert_size ",
+"GiraffeDeepVariant.runDeepVariantMakeExamples.in_dv_container": "google/deepvariant:1.4.0",
+"GiraffeDeepVariant.runDeepVariantCallVariants.in_dv_gpu_container": "google/deepvariant:1.4.0-gpu",
+"GiraffeDeepVariant.SAMPLE_NAME":"vg.HG003",
+"GiraffeDeepVariant.VG_CONTAINER":"quay.io/vgteam/vg:v1.37.0"
+}
+
