@@ -1,4 +1,4 @@
-# GoogleDeepVariant_Exome
+# GiraffeDeepVariant_Exome
 Performance Evaluation of  Giraffe-DeepVariant Workflow on WES data
 
 ## Project Background
